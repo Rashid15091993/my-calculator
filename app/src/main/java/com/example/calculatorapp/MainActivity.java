@@ -165,12 +165,10 @@ public class MainActivity extends AppCompatActivity {
                         inputText.setText("");
                         inputText.setText("0");
                     }
-
                 }
-
             }
         });
-
+        // slice
         sliceBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -188,8 +186,6 @@ public class MainActivity extends AppCompatActivity {
                         inputText.setText("0");
                     }
                 }
-
-
             }
         });
         //+
@@ -209,7 +205,6 @@ public class MainActivity extends AppCompatActivity {
                         intValueOne = Integer.parseInt(inputText.getText() + "");
                         cruchifyAddittion = true;
                         inputText.setText(null);
-
                     }
                 }
             }
