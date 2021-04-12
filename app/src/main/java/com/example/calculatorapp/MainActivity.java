@@ -10,7 +10,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     int intValueOne, intValueTwo;
     float floatValueOne, floatValueTwo;
-    private Button btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, plus_btn, btnDelete, btnEqual, minus_btn, multiply_btn, divide_btn, pointBtn;
+    private Button btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, plus_btn, btnDelete, btnEqual, minus_btn, multiply_btn, divide_btn, pointBtn, sliceBtn;
     private TextView inputText;
     boolean cruchifyAddittion, mSubtract, crunchifyMultiplication, crunchifyDivision;
 
@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         Button pointBtn = (Button)findViewById(R.id.pointBtn);
 
         Button btnDelete = (Button)findViewById(R.id.delBtn);
+        Button sliceBtn = (Button)findViewById(R.id.slicBtn);
         Button btnEqual = (Button)findViewById(R.id.btnEqual);
 
 
@@ -166,6 +167,28 @@ public class MainActivity extends AppCompatActivity {
                     }
 
                 }
+
+            }
+        });
+
+        sliceBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                if (inputText.getText().toString().equals("")){
+                    return;
+                }
+                else{
+                    int start = 1;
+                    int end = inputText.getText().toString().length();
+                    char[] buf = new char[end - start];
+                    inputText.getText().toString().getChars(start, end, buf, 0);
+                    inputText.setText(new String(buf));
+
+                    if (inputText.getText().toString().length() == 0){
+                        inputText.setText("0");
+                    }
+                }
+
 
             }
         });
