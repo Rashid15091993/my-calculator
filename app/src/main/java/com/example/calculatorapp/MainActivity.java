@@ -176,7 +176,6 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
                 else{
-                    int start = 1;
                     int end = inputText.getText().toString().length() - 1;
                      String slice = inputText.getText().toString().substring(0, end);
                     inputText.setText(new String(slice));
