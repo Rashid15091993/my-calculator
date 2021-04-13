@@ -1,9 +1,8 @@
 # my-calculator
-![Screenshot_1618252052](https://user-images.githubusercontent.com/59281938/114443137-c3852b80-9be6-11eb-8149-989ed4ebf5a9.png)
+![Screenshot_1618306854](https://user-images.githubusercontent.com/59281938/114532601-6df06380-9c66-11eb-99d4-197565d7352a.png)
 
+![Screenshot_1618306872](https://user-images.githubusercontent.com/59281938/114532608-6f219080-9c66-11eb-84cd-b6c0f2eaa4c8.png)
 
-![Screenshot_1618252060](https://user-images.githubusercontent.com/59281938/114443217-dbf54600-9be6-11eb-9d99-8c496f2abfd8.png)
-
-![Screenshot_1618252073](https://user-images.githubusercontent.com/59281938/114443228-def03680-9be6-11eb-9be2-59aef2c4bc19.png)
+![Screenshot_1618306889](https://user-images.githubusercontent.com/59281938/114532611-6fba2700-9c66-11eb-9565-9fdf202ac7c3.png)
 
 
