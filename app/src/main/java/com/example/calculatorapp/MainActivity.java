@@ -177,8 +177,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else{
                     int start = 1;
-                    int end = inputText.getText().toString().length();
-                     String slice = inputText.getText().toString().substring(start, end);
+                    int end = inputText.getText().toString().length() - 1;
+                     String slice = inputText.getText().toString().substring(0, end);
                     inputText.setText(new String(slice));
 
                     if (inputText.getText().toString().length() == 0){
