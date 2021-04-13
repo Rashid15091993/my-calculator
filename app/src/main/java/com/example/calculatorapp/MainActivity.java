@@ -178,9 +178,8 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     int start = 1;
                     int end = inputText.getText().toString().length();
-                    char[] buf = new char[end - start];
-                    inputText.getText().toString().getChars(start, end, buf, 0);
-                    inputText.setText(new String(buf));
+                     String slice = inputText.getText().toString().substring(start, end);
+                    inputText.setText(new String(slice));
 
                     if (inputText.getText().toString().length() == 0){
                         inputText.setText("0");
